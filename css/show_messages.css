@@ -1,0 +1,16 @@
+
+table tr th{
+    text-align: center;
+    font-family: 'Reem Kufi', sans-serif;
+    font-weight: bold;
+    
+}
+table tr td{
+    text-align: center;
+    font-family: 'Reem Kufi', sans-serif;
+    cursor: pointer;
+}
+/* table tr td:hover{
+    -webkit-transform: scale(1.1 , 1);
+	transform: scale(1.1 , 1);
+} */

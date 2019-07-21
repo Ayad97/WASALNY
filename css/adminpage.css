@@ -1,0 +1,77 @@
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  min-height: 800px;
+
+}
+.admin_control .control_item{
+    margin-top: 60px;
+    width: 100%;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #13334c;
+  color: white;
+  float: right;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  font-family: 'Mada', sans-serif;
+  width: 25%;
+  border-right: 2px dotted #eee;
+}
+
+.tablink:hover {
+  background-color: #777;
+  transform: scale(1.02,1.02);
+  transition: .3s ease-out
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+#defaultOpen{
+    display: block;
+}
+.admin_control .control_item label{
+    color: orangered;
+    width: 25%;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+    text-align: center;
+}
+.admin_control .control_item input{
+    width: 100%;
+}
+.admin_control .control_item input::placeholder{
+    font-family: 'Mada', sans-serif;
+}
+#Home {background-color: #13334c;}
+#News {background-color: #13334c;}
+#Contact {background-color: #13334c;}
+#About {background-color: #13334c;}
+
+table tr th{
+    text-align: center;
+    font-family: 'Reem Kufi', sans-serif;
+    font-weight: bold;
+    
+}
+table tr td{
+    text-align: center;
+    font-family: 'Reem Kufi', sans-serif;
+    cursor: pointer;
+}
+#footer{
+    margin-top: 50px;
+}

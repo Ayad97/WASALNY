@@ -1,0 +1,476 @@
+body{
+    
+    direction: rtl;
+    text-align: right;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.overlay{
+    background: rgba(56,61,65,.6);
+    width: 100%;
+    height: 100%;
+
+}
+.ln{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: 0;
+    border-top: 0px;
+    height: 3px;
+    width: 80px;
+    background-color: #fd5f00;
+    
+}
+/* -------------- start navbar---------------------------------- */
+
+.navbar-nav{
+    font-family: monospace;
+   
+
+}.navbar-nav>.active>a{
+    color: #fd5f00
+}
+ .navbar-nav>.active>a:hover  {
+    transition: 0.5s ease-in-out;
+    
+}
+.navbar-nav>li>a{
+    font-size: 15px;
+    font-family: 'Mada', sans-serif;
+    text-decoration: none;
+    color: #CED3DC;
+    margin-left: 15px;
+    margin-right: 10px;
+    
+}
+.navbar-nav>li>a:focus{
+    color: #f6f6e9;
+    background-color: #13334c
+}
+.navbar-nav>li>a:hover{
+    
+    transition: .2s ease-out;
+}
+ .navbar-nav>.active{
+    border-bottom: 1px solid #f6f6e9;
+}
+ .navbar-nav>li>a:hover{
+    
+    color: #fd5f00;
+}
+
+.navbar-nav>li>.dropdown-menu{
+    background-color: black;
+    min-width: 120px;
+    left: 0;
+    right: auto;
+}
+.dropdown-menu li{
+    width: 100%;
+}
+.dropdown-menu li a{
+    color: #CED3DC;
+    font-size: 15px;
+    font-family: 'Mada', sans-serif;
+    padding: 5px 20px;
+    text-decoration: none;
+    transition:padding .3s ease-in;
+    -webkit-transition:padding .3s ease-in;
+    -moz-transition:padding .3s ease-in;
+    -ms-transition:padding .3s ease-in;
+    -o-transition:padding .3s ease-in;
+}
+.dropdown-menu li a:hover{
+    padding-left: 25px;
+    color: #fd5f00;
+    background-color: #13334c
+}
+.dropdown-menu .divider{
+    background-color: rgb(88, 29, 41);
+}
+ .navbar-brand{
+    font-family: 'Lalezar', cursive;
+    letter-spacing: 1.5px;
+    color: #f6f6e9;
+    float: left;
+}
+ .navbar-brand .brand{
+    color: #fd5f00;    
+}
+.navbar-brand img{
+    width: 50px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+/* .navbar-brand:hover{
+    background-color: #13334c;
+    color: #fd5f00;
+    transition: .3s ease-in
+}
+     */
+.sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+ 
+
+  @media (max-width: 768px) {
+     .navbar-brand{
+        font-size: 12px;
+        
+    }
+}
+    /*----------------------------------------------------------------*/
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px)  { 
+    .log{
+        position: fixed;
+        right: 80%;;
+    }
+    .nm{
+        position: fixed;
+        right: 75%;
+    }
+ }
+
+/*----------------------------------------------------------------*/
+  
+
+/* -------------- end navbar---------------------------------- */
+/* --------------start home------------------------------------- */
+.home{
+   
+    background: url(../img/bus-stop-buses-city-1426516.jpg) repeat fixed;
+    background-size: cover;
+    width: 100%;
+    min-height: 650px;
+    color: #EEE;
+    overflow: hidden;
+}
+
+.home .container{
+    min-height: 620px;
+}
+.home .hd h1{
+    padding-bottom: 5px;
+    font-family: 'Changa', sans-serif;
+    border-bottom: 2px solid #fd5f00;
+    padding-top: 40px;
+
+}
+.home .hd span {
+    color: #fd5f00;
+}
+.home .hd p{
+    font-size: 15px;
+    font-family: 'Harmattan', sans-serif;
+}
+.home .bd h4{
+    margin-top: 40px;
+    font-family: 'Reem Kufi', sans-serif;
+    text-align: right;
+}
+.home .links{
+    margin-top: 220px;
+}
+.home .links a{
+    margin-right: 20px;
+}
+.home .links a img:hover{
+    cursor: pointer;
+    transform: scale(1.08,1.08);
+}
+.home .links a img{
+    width: 130px;
+    height: 70px;
+}
+.home .btn-primary{
+    background-color: #fd5f00;
+    border-color: #fd5f00;
+    color: #f6f6e9;
+}
+.home .p-learn{
+    margin-right: 45%;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: .3s ease-in;
+}
+.home .p-learn:hover{
+    color: #13334c;
+}
+/* --------------end home------------------------------------- */
+/* --------------start about------------------------------------- */
+.about{
+    margin-top: 10px;
+    background-color: #13334c;
+    color: #E1E0E7;
+}
+.about h3{
+    padding-top: 15px;
+    color: #fd5f00;
+    font-size: 22px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #f6f6e9;
+    width: 50%;
+    margin-right: 25%;
+    margin-bottom: 15px;
+    font-family: 'Lalezar', cursive;
+}
+.about p{
+    font-family: 'Reem Kufi', sans-serif;
+    margin-bottom: 30px;
+}
+.about .about-item{
+    display: table; 
+    width: 100%;
+}
+.about .about .col{
+    display: table-cell; 
+}
+.about .about-item img{
+    width: 120px;
+    height: 80px;
+    border-radius: 10px;;
+
+}
+.about .about-item p{
+    font-family: 'Harmattan', sans-serif;
+    font-size: 16px;
+}
+.about .about-item span{
+    color: #fd5f00;
+    font-weight: bold;
+}
+/* --------------end about------------------------------------- */
+/* --------------start services------------------------------------- */
+.services{
+    margin-top: 15px;
+    background-color: #CED3DC;
+    color: #13334c;
+}
+.services .hd-sr h3{
+    color: #13334c;
+    font-family: 'Lalezar', cursive;
+    font-size: 22px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    border-bottom: 2px solid #fd5f00;
+    width: 50%;
+    margin-right: 25%;
+}
+.services .hd-sr p{
+    font-size: 15px;
+    font-family: 'Harmattan', sans-serif;
+    letter-spacing: 1.2px;
+    margin-bottom: 50px;
+}
+.services .servic-items .item{
+    background-color: #E1E0E7;
+    border: 1px solid #13334c;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding-right: 15px;
+    min-height: 300px;
+    
+}
+.services .servic-items .item ul li{
+    font-family: 'Changa', sans-serif;
+    font-size: 14px;   
+    direction:  rtl;
+}
+.services .servic-items h4{
+    margin-top: 15px;
+    font-family: 'Changa', sans-serif;
+    padding: 5px;
+    border-bottom: 1px dotted #fd5f00
+}
+.services .servic-items img{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+/* --------------end services------------------------------------- */
+/* ------------------------------------------------------------ */
+.client-sp{
+    margin-top: 15px;
+    /* background-color: #0077B5; */
+}
+.client-sp h1{
+    font-family: 'Sawarabi Mincho', sans-serif;
+    padding-bottom: 20px;
+    width: 30%;
+    margin-right: 35%;
+    border-bottom: 2px solid #fd5f00;
+    font-family: 'Lalezar', cursive;
+}
+.client-sp img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter:grayscale(1);
+    -o-filter:grayscale(1);
+    -ms-filter: greyscale(1);
+    transition: .3s ease-in;
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    -moz-transition: .3s ease-in;
+    -ms-transition: .3s ease-in;
+    cursor: pointer;
+}
+.client-sp img:hover{
+    transform: scale(1.1 ,1.1);
+    -webkit-transform: scale(1.1 ,1.1);
+    filter: none;
+}
+/* ----------mrdia quety--------- */
+
+@media (max-width: 768px) {
+    .client-sp h1{
+        width: 90%;
+        margin-right: 5%;
+        font-size: 25px;
+    }
+    .client-sp img{
+        height: 100px;
+        margin-bottom: -20px;  
+    }
+    .client-sp img:hover{
+        transform: none;
+    }
+}
+/* ------------------------------------------------------------ */
+/* --------------start contact------------------------------------- */
+.contact{
+    margin-top: 15px;
+    background: url(../img/10.jpeg);
+    background-size: cover;
+}
+.contact .foot h3 , .contact .foot p{
+    color: aliceblue;
+    font-family: 'Lalezar', cursive;
+}
+.contact .foot li{
+    color: #fd5f00
+}
+.contact .foot .ln{
+    background-color: #fd5f00;
+}
+.contact .lb-contact .fa{
+    color:  #fd5f00;
+    border-radius: 5px;
+
+}
+.contact .lb-contact .form-group label{
+    line-height: 1em;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    color: rgb(219, 205, 205);
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #fd5f00;
+    font-family: 'Lalezar', cursive;
+}
+.contact .lb-contact .form-group input , .contact .lb-contact .form-group textarea{
+    background-color: rgb(82, 78, 78,0.7);
+    color: #eee;
+    border: 0;
+    border-radius: 5px;
+}
+.contact .lb-contact .form-group ::placeholder{
+    color: rgb(219, 205, 205 ,.8);
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contact .submit{
+    font-size: 1.1em;
+    float: left;
+    width: 150px;
+    background-color: #13334c;
+    color: #fff;
+    transition: .2s ease-in-out;
+    -webkit-transition: .2s ease-in-out;
+    font-family: 'Lalezar', cursive;
+    margin-bottom: 15px;
+  
+  }
+  .contact .submit:hover{
+      color: #fd5f00
+  }
+/* --------------end contact------------------------------------- */
+/* --------------start footer------------------------------------- */
+.footer{
+    margin-top: 10px;
+    background-color: #13334c;
+    color: #CED3DC;
+}
+.footer .foot-item h5{
+    padding-top: 10px;
+}
+.footer .foot-item .social .fa{
+    
+    padding: 12px;
+    border-radius: 25%;
+    margin-bottom: 5px;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    border: 2px solid #f1f1f1;
+}
+.footer .foot-item  .social .fa:hover{
+    color: #f1f1f1;
+    border: 2px solid #fd5f00;
+}
+.footer .foot-item .addr{
+    padding-top: 10px;
+}
+.footer .foot-item .addr .fa-2x{
+    color: #fd5f00;
+    padding: 8px;
+    
+}
+.footer  .foot-item .book {
+    margin-top: 50px;
+    margin-left: 25%;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    width: 50%;
+    background-color: #fff;
+    transition: .2s ease-in-out;
+    -webkit-transition: .2s ease-in-out;
+    font-family: 'Lalezar', cursive;
+}
+.footer  .foot-item .book:hover{
+    background: #fd5f00;
+    transition:  0.2s ease-out;
+}
+.footer  .foot-item .book a{
+    text-decoration: none;
+    color: #fd5f00;
+}
+.footer  .foot-item .book a:hover{
+    color: #CED3DC;
+    transition:  0.2s ease-out;
+}
+.copyrigh{
+    background-color: black;
+    color: #fd5f00
+}
+
+/* --------------end footer------------------------------------- */

@@ -1,0 +1,60 @@
+/*-------------------------------------*/
+.breadcrumb{
+    margin-top: 50px;
+    margin-bottom: 15px;;
+}
+ul.breadcrumb {
+  padding: 10px;
+  list-style: none;
+  background-color: #eee;
+   padding-right: 10%;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 16px;
+  font-family: 'Changa', sans-serif;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #fd5f00;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  
+  text-decoration: none;
+}
+/*-------------------------------------*/
+.reserv_dt{
+    margin-top: 15px;
+    background-color: #fd5f00;
+    color: #eee;
+    font-family: 'Mada', sans-serif;
+}
+.reserv_dt .overlay{
+    
+    background: rgba(56,61,65,.3);
+}
+.reserv_dt .reserv_items{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.reserv_dt .reserv_items label{
+    margin-left: 20px;
+    padding: 10px;
+    color:rgba(14, 23, 44, 1);
+    font-weight: bold;
+    padding-bottom: 0;
+    
+}
+.reserv_dt .reserv_items input{
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(14, 23, 44, 0.9);;
+    color: #eee;
+    width: 100%;
+}
