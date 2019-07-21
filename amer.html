@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>حجز المقعد (WASALNY)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="img/Route Optimisation.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather|PT+Sans|PT+Serif|Sawarabi+Mincho|Source+Sans+Pro" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Changa|Harmattan|Lalezar|Mada|Reem+Kufi" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/bootstrap.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/seat_reserved.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+   
+
+		
+</head>
+<body class="overlay">
+ 
+    <form action="home.php" method="post" enctype="multipart/form-data">
+    <section id="reserved" class="reserved">
+        <div class="overlay">
+            <div class="container">
+            <div class="reserved_item">
+                <h4 class="text-center"> إحجـز مقعدك الأن</h4>
+                <hr class="ln">
+            </div>
+            <div class="reserved_data">
+                <div class="row">
+                    <div class="col-md-6">
+                        
+                       
+                        <div class="form-group">
+                                <label for="exampleInputUsername" class="wow flipInX">عدد المقاعد </label>
+                            <div class="input-group input-group-md wow slideInDown">
+                            
+                                <select name="datetime">
+                                        <option>اختر عدد المقاعد</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+								 
+								 
+								 <br>
+                                
+
+                            </div>
+                            <br>
+							<a href ="#pay">
+							<button class="button" >طـــريــقــة الــدفــع</button>
+                                <br>
+                                <br>
+                                <textarea type="text" id="seatt" name="seatt" placeholder="" value=" "></textarea>
+                                <br>
+							</a>
+                        </div>
+                </div>  
+                 <div class="col-md-6">
+                     <div class="select_st">
+                        <h4 class="text-center"> المقاعد المتاحة داخل الأتوبيس </h4>
+                        <p class="text-center">اختر عدد الكراسي و الاماكن التي تريدها </p>
+                        <hr class="ln">
+                    </div>
+                    <div class="choose_st">
+                    <div class="rt_seat">
+                        <div style="margin-bottom: 15px;">
+                            <span class="rt" id="01A" onclick="add()">01A</span>
+                            <span class="rt" id="02A" onclick="add">02A</span>
+                        </div>
+                        
+                      <input type="hidden" name="01A" value="01A" >
+
+    
+                        <br>
+                        <div style="margin-bottom: 15px;">
+                            <span  class="rt" id="05A" onclick="add" >05A</span>
+                            <span class="rt" id="06A" onclick="add">06A</span>
+                        </div>
+                        <br>
+                        <div style="margin-bottom: 15px;">
+                            <span class="rt" id="09A" onclick="add">09A</span>
+                            <span class="rt" id="10A" onclick="add">10A</span>
+                        </div>
+                        
+                        <br>
+                        <div style="margin-bottom: 15px;">
+                            <span class="rt" id="13A" onclick="add">13A</span>
+                            <span class="rt" id="14A" onclick="add">14A</span>
+                        </div>
+                        <br>
+                        <div style="margin-bottom: 15px;">
+                            <span class="rt" id="17A" onclick="add">17A</span>
+                            <span class="rt" id="18A" onclick="add">18A</span>
+                        </div>
+                        <br>
+                        <div style="margin-bottom: 15px;">
+                            <span class="rt" id="21A" onclick="add">21A</span>
+                            <span class="rt" id="22A" onclick="add">22A</span>
+                        </div>
+                        <br>
+                        <div style="margin-bottom: 15px;">
+                            <span class="rt" id="25A" onclick="add">25A</span>
+                            <span class="rt" id="26A" onclick="add">26A</span>
+                        </div>
+                        <br>
+                        <div style="margin-bottom: 15px;">
+                            <span class="rt" id="29A " onclick="add">29A</span>
+                            <span class="rt" id="30A " onclick="add">30A</span>
+                        </div>
+                    </div>
+
+
+                    <div class="lf_seat">
+                        <div style="margin-bottom: 15px;">
+                            <span class="lf" id="03B" onclick="add">03B</span>
+                            <span class="lf" id="04B" onclick="add">04B</span>
+                        </div>
+                        <br>
+                        <div style="margin-bottom: 15px;">
+                            <span class="lf" id="07B" onclick="add">07B</span>
+                            <span class="lf" id="08B" onclick="add">08B</span>
+                        </div>
+                        <br>
+                        <div style="margin-bottom: 15px;">
+                            <span class="lf" id="11B" onclick="add">11B</span>
+                            <span class="lf" id="12B" onclick="add">12B</span>
+                        </div>
+                        <br>
+                        <div style="margin-bottom: 15px;">
+                            <span class="lf" id="15B" onclick="add">15B</span>
+                            <span class="lf" id="16B" onclick="add">16B</span>
+                        </div>
+                        <br>
+                        <div style="margin-bottom: 15px;">
+                            <span class="lf" id="19B" onclick="add">19B</span>
+                            <span class="lf" id="20B" onclick="add">20B</span>
+                        </div>
+                        <br>
+                        <div style="margin-bottom: 15px;">
+                            <span class="lf" id="23B" onclick="add">23B</span>
+                            <span class="lf" id="24B" onclick="add">24B</span>
+                        </div>
+                        <br>
+                        <div style="margin-bottom: 15px;">
+                            <span class="lf" id="27B" onclick="add">27B</span>
+                            <span class="lf" id="28B" onclick="add">28B</span>
+                        </div>
+                        <br>
+                        <div style="margin-bottom: 15px;">
+                            <span class="lf" id="31B" onclick="add">31B</span>
+                            <span class="lf" id="32B" onclick="add">32B</span>
+                        </div>
+                        <br>
+                    <div>
+
+                    </div>
+                        
+                    </div>
+                 </div>   
+                </div>
+            </div>
+            </div>
+        </div>
+        <!--  -->
+        <div class="row" id="pay">
+                <div class="col-75">
+                  <div class="container">
+                    
+                  
+                      <div class="row">
+                        <div class="col-50">
+                          <h3>Billing Address</h3>
+                          <h3>Billing Address</h3>
+                          <label for="fname"><i class="fa fa-user"></i> الأسم بالكامل</label>
+                          <input type="text" id="fname" name="firstname" placeholder="فرجاني ساسي">
+                          <label for="email"><i class="fa fa-envelope"></i> البريد الالكتروني</label>
+                          <input type="text" id="email" name="email" placeholder="fer@example.zsc">
+                          <label for="adr"><i class="fa fa-address-card-o"></i> العنوان</label>
+                          <input type="text" id="adr" name="address" placeholder="العنوان بالكامل">
+                          <label for="city"><i class="fa fa-institution"></i> البلد</label>
+                          <input type="text" id="city" name="city" placeholder="">
+              
+                          <div class="row">
+                            <div class="col-50">
+                              <label for="state">الحالة</label>
+                              <input type="text" id="state" name="state" placeholder="NY">
+                            </div>
+                            <div class="col-50">
+                              <label for="zip">Zip</label>
+                              <input type="text" id="zip" name="zip" placeholder="10001">
+                            </div>
+                          </div>
+                        </div>
+              
+                        <div class="col-50">
+                          <h3>وسيلة الدفع</h3>
+                          <label for="fname"> الكروت المدعومة </label>
+                          <div class="icon-container">
+                            <i class="fa fa-cc-visa" style="color:navy;"></i>
+                            <i class="fa fa-cc-amex" style="color:blue;"></i>
+                            <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                            <i class="fa fa-cc-discover" style="color:orange;"></i>
+                          </div>
+                          <label for="cname">الاسم علي الكارت</label>
+                          <input type="text" id="cname" name="cardname" placeholder="">
+                          <label for="ccnum">رقم الكارت</label>
+                          <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                          <label for="expmonth">شهر الانتهاء</label>
+                          <input type="text" id="expmonth" name="expmonth" placeholder="9">
+              
+                          <div class="row">
+                            <div class="col-50">
+                              <label for="expyear">سنة الانتهاء</label>
+                              <input type="text" id="expyear" name="expyear" placeholder="2020" >
+                            </div>
+                            <div class="col-50">
+                              <label for="cvv">CVV</label>
+                              <input type="text" id="cvv" name="cvv" placeholder="352"  >
+                            </div>
+                          </div>
+                        </div>
+              
+                      </div>
+                    
+                      <input onclick="fun()" type="submit" id="btn" value="تأكيد" class="btn">
+                    
+                  </div>
+                </div>
+              
+            
+                  </div>
+                </div>
+              </div>
+          </div>
+      </section>
+  </form>  
+
+  <script>
+    $(document).ready(function(){
+      
+     // var valuuu = "<?php echo $selected ?>";
+     //   var spge = <?php echo $selected; ?> ;
+      //alert(spge);
+    
+      $("span").dblclick(function(){
+         
+          $(this).css("background-color","#F00");
+            $(this).css("color","#fff");
+          
+          textt=$(this).text();
+          
+          
+          textareaa =$("#seatt").val();
+          temp = textareaa +" "+ textt;
+          $("#seatt").val(temp);
+          
+                 
+      });
+        $('span').click(function(){
+           $(this).css("background-color","#13334c");
+            $(this).css("color","#fff")  ;
+            textt=$(this).text();
+             textareaa =$("#seatt").val();
+            newvalue =textareaa.replace(textt,"")
+            $("#seatt").val(newvalue);
+            
+         });
+        $('#btn').click(function(){
+           this.css("background-color","#F00");
+            
+         });
+       
+        
+    });
+        
+    </script>
+</body>
+</html>
