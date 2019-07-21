@@ -118,7 +118,7 @@
         </div>
         <div class="group">
           <label for="pass" class="label">الرقم السري</label>
-          <input id="password" name="password" type="password" class="input" data-type="password" required>
+          <input id="password" name="password" type="password" class="input" data-type="password" required />
         </div>
         <div class="group">
           <select name="login_as" id="" required>
@@ -132,7 +132,7 @@
           <label for="check"><span class="icon"></span> البقاء متصل </label>
         </div>
         <div class="group">
-          <input type="submit" class="button" value="تسجيل الدخول">
+          <input type="submit" class="button" value="تسجيل الدخول" />
         </div>
         <div class="hr"></div>
         <div class="foot-lnk">
@@ -142,19 +142,19 @@
       <form class="sign-up-htm" action="./api/user/signup.php" method="POST">
          <div class="group">
           <label for="user" class="label">الإسم</label>
-          <input id="name" name="name" type="text" class="input" required>
+          <input id="name" name="name" type="text" class="input" required />
         </div>
         <div class="group">
           <label for="user" class="label">الهاتف</label>
-          <input id="phone" name="phone" type="tel" class="input" required>
+          <input id="phone" name="phone" type="tel" class="input" required />
         </div>
         <div class="group">
           <label for="user" class="label">البريد الالكتروني</label>
-          <input id="email" name="email" type="text" class="input" required>
+          <input id="email" name="email" type="text" class="input" required />
         </div>
         <div class="group">
           <label for="pass" class="label">الرقم السري</label>
-          <input id="password" name="password" type="password" class="input" data-type="password" required>
+          <input id="password" name="password" type="password" class="input" data-type="password" required />
         </div>
        
         <div class="group">
