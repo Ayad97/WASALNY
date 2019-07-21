@@ -200,7 +200,7 @@
     'use strict';  
 
            $(window).load(function(){
-            // $('body').css("overflow","auto");
+            
 
             $('.load-overlay .spinner').fadeOut(3000,
             function(){
