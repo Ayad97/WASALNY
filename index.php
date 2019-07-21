@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
-  <meta charset="UTF-8">
+ 
   <title>تسجيل الدخول  (WASALNY)</title>
-  <!-- Required meta tags -->
+ 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!-- Bootstrap CSS -->
+
 <link rel="shortcut icon" type="image/x-icon" href="img/Route Optimisation.png">
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -26,6 +26,7 @@
 <link rel="stylesheet" href="css/animate.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/cssfile.css">
+	
 <style>
 
 .load-overlay{
@@ -93,7 +94,7 @@
   
 </head>
 <body>
-  <!--bbbbb-->
+ 
   <div class="load-overlay">
     <div class="spinner">
       <div class="cube1"></div>
