@@ -27,7 +27,7 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/cssfile.css">
 <style>
-/* --------------loader-------------- */
+
 .load-overlay{
   background-color: #13334c;
   position: fixed;
@@ -93,14 +93,14 @@
   
 </head>
 <body>
-  <!-- --------------------------------------------------- -->
+  <!--bbbbb-->
   <div class="load-overlay">
     <div class="spinner">
       <div class="cube1"></div>
       <div class="cube2"></div>
     </div>
 </div>
-<!-- --------------------------------------------- -->
+
 <section>
 <div class="container">
   <div class="row">
