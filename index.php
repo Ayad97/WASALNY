@@ -108,8 +108,8 @@
     <div class="col-md-6">
   <div class="login-wrap">
   <div class="login-html">
-    <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">تسجيل الدخول</label>
-    <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">انشاء حساب</label>
+    <input id="tab-1" type="radio" name="tab" class="sign-in" checked /><label for="tab-1" class="tab">تسجيل الدخول</label>
+    <input id="tab-2" type="radio" name="tab" class="sign-up" /><label for="tab-2" class="tab">انشاء حساب</label>
     <div class="login-form">
       <form class="sign-in-htm" action="./api/user/login.php" method="GET">
         <div class="group">
