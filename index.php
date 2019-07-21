@@ -170,7 +170,7 @@
 	  <div class="group">
           <input type="submit" class="button" value="انشاء حساب" style="margin-top: 20px;" />
         </div>        
-          <label for="tab-1" class="text-center" style="color:#fff; margin-right: 48%;; font-weight: bold;">عضو بالفعل </a>
+          <label for="tab-1" class="text-center" style="color:#fff; margin-right: 48%;; font-weight: bold;">عضو بالفعل </label>
       </form>
     </div>
   </div>
