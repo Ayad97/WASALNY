@@ -128,7 +128,7 @@
         </select>
         </div>
         <div class="group">
-          <input id="check" type="checkbox" class="check" checked>
+          <input id="check" type="checkbox" class="check" checked />
           <label for="check"><span class="icon"></span> البقاء متصل </label>
         </div>
         <div class="group">
@@ -168,7 +168,7 @@
 
 
 	  <div class="group">
-          <input type="submit" class="button" value="انشاء حساب" style="margin-top: 20px;">
+          <input type="submit" class="button" value="انشاء حساب" style="margin-top: 20px;" />
         </div>        
           <label for="tab-1" class="text-center" style="color:#fff; margin-right: 48%;; font-weight: bold;">عضو بالفعل </a>
       </form>
