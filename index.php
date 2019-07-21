@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
-  <meta charset="UTF-8">
+ 
   <title>تسجيل الدخول  (WASALNY)</title>
-  <!-- Required meta tags -->
+ 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!-- Bootstrap CSS -->
+
 <link rel="shortcut icon" type="image/x-icon" href="img/Route Optimisation.png">
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -26,8 +26,9 @@
 <link rel="stylesheet" href="css/animate.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/cssfile.css">
+	
 <style>
-/* --------------loader-------------- */
+
 .load-overlay{
   background-color: #13334c;
   position: fixed;
@@ -93,31 +94,31 @@
   
 </head>
 <body>
-  <!-- --------------------------------------------------- -->
+ 
   <div class="load-overlay">
     <div class="spinner">
       <div class="cube1"></div>
       <div class="cube2"></div>
     </div>
 </div>
-<!-- --------------------------------------------- -->
+
 <section>
 <div class="container">
   <div class="row">
     <div class="col-md-6">
   <div class="login-wrap">
   <div class="login-html">
-    <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">تسجيل الدخول</label>
-    <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">انشاء حساب</label>
+    <input id="tab-1" type="radio" name="tab" class="sign-in" checked /><label for="tab-1" class="tab">تسجيل الدخول</label>
+    <input id="tab-2" type="radio" name="tab" class="sign-up" /><label for="tab-2" class="tab">انشاء حساب</label>
     <div class="login-form">
       <form class="sign-in-htm" action="./api/user/login.php" method="GET">
         <div class="group">
           <label for="user" class="label">البريد الالكتروني</label>
-          <input id="email" name="email" type="text" class="input" required>
+          <input id="email" name="email" type="text" class="input" required />
         </div>
         <div class="group">
           <label for="pass" class="label">الرقم السري</label>
-          <input id="password" name="password" type="password" class="input" data-type="password" required>
+          <input id="password" name="password" type="password" class="input" data-type="password" required />
         </div>
         <div class="group">
           <select name="login_as" id="" required>
@@ -127,11 +128,11 @@
         </select>
         </div>
         <div class="group">
-          <input id="check" type="checkbox" class="check" checked>
+          <input id="check" type="checkbox" class="check" checked />
           <label for="check"><span class="icon"></span> البقاء متصل </label>
         </div>
         <div class="group">
-          <input type="submit" class="button" value="تسجيل الدخول">
+          <input type="submit" class="button" value="تسجيل الدخول" />
         </div>
         <div class="hr"></div>
         <div class="foot-lnk">
@@ -141,19 +142,19 @@
       <form class="sign-up-htm" action="./api/user/signup.php" method="POST">
          <div class="group">
           <label for="user" class="label">الإسم</label>
-          <input id="name" name="name" type="text" class="input" required>
+          <input id="name" name="name" type="text" class="input" required />
         </div>
         <div class="group">
           <label for="user" class="label">الهاتف</label>
-          <input id="phone" name="phone" type="tel" class="input" required>
+          <input id="phone" name="phone" type="tel" class="input" required />
         </div>
         <div class="group">
           <label for="user" class="label">البريد الالكتروني</label>
-          <input id="email" name="email" type="text" class="input" required>
+          <input id="email" name="email" type="text" class="input" required />
         </div>
         <div class="group">
           <label for="pass" class="label">الرقم السري</label>
-          <input id="password" name="password" type="password" class="input" data-type="password" required>
+          <input id="password" name="password" type="password" class="input" data-type="password" required />
         </div>
        
         <div class="group">
@@ -167,9 +168,9 @@
 
 
 	  <div class="group">
-          <input type="submit" class="button" value="انشاء حساب" style="margin-top: 20px;">
+          <input type="submit" class="button" value="انشاء حساب" style="margin-top: 20px" />
         </div>        
-          <label for="tab-1" class="text-center" style="color:#fff; margin-right: 48%;; font-weight: bold;">عضو بالفعل </a>
+<!--           <label for="tab-1" class="text-center" style="color:#fff ; margin-right: 48% ; font-weight: bold ;"> عضو بالفعل </label> -->
       </form>
     </div>
   </div>
@@ -178,9 +179,9 @@
     <div class="col-md-6">
       <div class="overlay">
         <div class="visitor">
-      <h4 class="text-center" >الموقع الخاص ب وصلني </h4> <hr class="ln">
+      <h4 class="text-center" >الموقع الخاص ب وصلني </h4> <hr class="ln" />
       <p class="lead text-center">يستخدم لنقل الطلاب الجامعيين من و إلي الجامعة </p>
-      <button class="btn btn-primary btn_vs"><a href="visitor.php">الدخول كزائر<a></button>
+      <button class="btn btn-primary btn_vs"><a href="visitor.php">الدخول كزائر</a></button>
       </div>
       </div>
     </div>
@@ -199,7 +200,7 @@
     'use strict';  
 
            $(window).load(function(){
-            // $('body').css("overflow","auto");
+            
 
             $('.load-overlay .spinner').fadeOut(3000,
             function(){
