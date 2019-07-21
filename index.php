@@ -114,7 +114,7 @@
       <form class="sign-in-htm" action="./api/user/login.php" method="GET">
         <div class="group">
           <label for="user" class="label">البريد الالكتروني</label>
-          <input id="email" name="email" type="text" class="input" required>
+          <input id="email" name="email" type="text" class="input" required />
         </div>
         <div class="group">
           <label for="pass" class="label">الرقم السري</label>
