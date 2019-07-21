@@ -168,7 +168,7 @@
 
 
 	  <div class="group">
-          <input type="submit" class="button" value="انشاء حساب" style="margin-top: 20px;">
+          <input type="submit" class="button" value="انشاء حساب" style="margin-top: 20px" />
         </div>        
 <!--           <label for="tab-1" class="text-center" style="color:#fff ; margin-right: 48% ; font-weight: bold ;"> عضو بالفعل </label> -->
       </form>
@@ -179,7 +179,7 @@
     <div class="col-md-6">
       <div class="overlay">
         <div class="visitor">
-      <h4 class="text-center" >الموقع الخاص ب وصلني </h4> <hr class="ln">
+      <h4 class="text-center" >الموقع الخاص ب وصلني </h4> <hr class="ln" />
       <p class="lead text-center">يستخدم لنقل الطلاب الجامعيين من و إلي الجامعة </p>
       <button class="btn btn-primary btn_vs"><a href="visitor.php">الدخول كزائر</a></button>
       </div>
